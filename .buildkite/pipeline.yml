@@ -1,5 +1,6 @@
+#no clowns now
 steps:
-  - label: "🤡 :hammer:"
+  - label: " :hammer:"
     plugins:
       - plugin-tester#v1.1.1: ~
 
@@ -13,6 +14,6 @@ steps:
       - shellcheck#v1.4.0:
           files: hooks/**
 
-  - label: ":shell: Detect 🤡"
+  - label: ":shell: Detect "
     plugins:
       - detect-clowns#v2.0.0: ~
