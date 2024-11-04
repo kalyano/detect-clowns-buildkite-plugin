@@ -1,7 +1,6 @@
-#removed clowns
 #!/bin/bash
 set -euo pipefail
-
+#removed clowns
 echo "--- Searching for Clowns"
 echo "$BUILDKITE_BUILD_CHECKOUT_PATH"
 
